@@ -1,0 +1,547 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #030384;
+    scroll-behavior: smooth;
+}
+.header{
+    margin-top: 190px;
+    color: antiquewhite;
+    font-size: 50px;
+    float: none;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+.XIII{
+    font-size: 100px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+    transition: font-size 0.8s;
+}
+.XIII:hover{
+    cursor: not-allowed;
+    font-size: 125px;
+}
+#first-p{
+    color: white;
+    font-size: 40px;
+    margin-top: 0px;
+    float: none;
+    margin-left: 390px;
+}
+.heart{
+    margin-left: 610px;
+    height: 70px;
+    width: 70px;
+    background: #f20044;
+    position: relative;
+    transform: rotate(-45deg);
+    box-shadow: -5px 5px 50px #f20044;
+    animation: heart 0.6s linear infinite;
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(0.8);
+    }
+}
+.heart:before{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #f20044;
+    top: -50%;
+    border-radius: 50px;
+    box-shadow: -5px 5px 50px #f20044;
+}
+.heart:after{
+    content: '';
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background-color: #f20044;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: -5px 5px 50px #f20044;
+}
+.intro{
+    margin-bottom: 300px;
+    margin-left: 50px;
+    color: papayawhip;
+}
+.aim{
+    margin-left: 75px;
+    margin-top: 250px;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+.aim span{
+    margin-left: 300px;
+}
+.container{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.container span{
+    width: 300px;
+}
+.container p{
+    margin-top: 0px;
+    margin-left: 50px;
+}
+#motive-p{
+    width: 360px;
+    margin-left: 90px;
+}
+#vision-p{
+    width: 300px;
+    margin-left: 140px;
+}
+a{
+    scroll-behavior: smooth;
+    transition: color 0.5s, font-size 0.7s;
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    font-size: 31px;
+    color: #70b0ff;
+}
+.lists-of-poems{
+    scroll-behavior: smooth;
+    width: 400px;
+    margin-top: 300px;
+}
+.ul-lists-of-poems li{
+    scroll-behavior: smooth;
+    margin-top: 5px;
+    width: 100%;
+    color: #ffffff;
+    font-size: 30px;
+    justify-content: space-between;
+}
+.ul-lists-of-poems :hover{
+    cursor: pointer;
+}
+.p-in-second-div{
+    color: white;
+    font-size: 4rem;
+}
+.poems p{
+    margin-top: 400px;
+
+}
+.poems{
+
+    width: 50%;
+    text-align: center;
+    margin-top: 500px;
+    font-size: 3rem;
+    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+}
+.eternal-flame-burns::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.eternal-flame-burns:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.eternal-flame-burns::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.eternal-flame-burns{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+@media (orientation: landscape) {
+    body {
+      grid-auto-flow: column;
+    }
+  }
+.devoted-attendance::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.devoted-attendance:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.devoted-attendance::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.devoted-attendance{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.perpetually-honest::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.perpetually-honest:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.perpetually-honest::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.perpetually-honest{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.endless-you::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.endless-you:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.endless-you::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.endless-you{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.boundless-grasp::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.boundless-grasp:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.boundless-grasp::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.boundless-grasp{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.thrive::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.thrive:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.thrive::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.thrive{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.a-daily-surge-of-curiousity::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.a-daily-surge-of-curiousity:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.a-daily-surge-of-curiousity::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.a-daily-surge-of-curiousity{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.a-soil-for-the-tree::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.a-soil-for-the-tree:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.a-soil-for-the-tree::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.a-soil-for-the-tree{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.dance-to-forever-romance::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.dance-to-forever-romance:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.dance-to-forever-romance::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.dance-to-forever-romance{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.undying-respect::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.undying-respect:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.undying-respect::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.undying-respect{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.gloomy-days-begone::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.gloomy-days-begone:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.gloomy-days-begone::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.gloomy-days-begone{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.comfort::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.comfort:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.comfort::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.comfort{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.timeless-devotion::before{
+    transform: scaleX(0);
+    transform-origin: bottom right;
+}
+.timeless-devotion:hover::before{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.timeless-devotion::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background-color: #07079b;
+    z-index: -1;
+    transition: transform 1.5s ease, color 1.5s;
+}
+.timeless-devotion{
+    line-height: 45px;
+    position: relative;
+    font-size: 2rem;
+}
+.container-2{
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+}
+.first-profile{
+    font-size: larger;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.first-picture{
+    height: 300px;
+    width: auto;
+}
+.first-picture-name, .second-picture-name, .third-picture-name, .fourth-picture-name, .fifth-picture-name{
+    font-weight: bold;
+    font-size: 23px;
+    color:white;
+}
+.first-picture-friends, .second-picture-friends, .third-picture-friends, .fourth-picture-friends, .fifth-picture-friends{
+    font-size: 18px;
+    font-size: smaller;
+    display: block;
+    color: grey;
+}
+.first-picture-button, .second-picture-button, .third-picture-button, .fourth-picture-button, .fifth-picture-button{
+    font-size: 15px;
+    border-radius: 12%;
+    background-color:  #e1e5eb
+}
+.second-profile{
+    vertical-align: top;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.second-picture{
+    height: 300px;
+    width: auto;
+}
+.third-profile{
+    vertical-align: top;
+    font-size: larger;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.third-picture{
+    height: 300px;
+    width: auto;
+}
+.fourth-profile{
+    vertical-align: top;
+    font-size: larger;
+    margin-left: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.fourth-picture{
+    height: 300px;
+    width: auto;
+}
+.fifth-profile{
+    vertical-align: top;
+    font-size: larger;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    display: inline-block;
+}
+.fifth-picture{
+    height: 300px;
+    width: auto;
+}
+.outro{
+    margin-top: 250px;
+    color: white;
+    font-size: larger;
+}
